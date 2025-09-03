@@ -3,24 +3,42 @@ import React from 'react'
 
 export const HeroSection = () => {
   return (
-    <div>
+    <>
   <main>
-      <section className=' border border-red-500'>
-          <div className="relative bg-[url('/src/assets/arkOverlay.jpg')]   bg-cover bg-center w-full h-165">
-                   <div className="absolute inset-0 bg-[#3b82f6f6] bg-opacity-50"></div>
-                   <div className="relative z-10 flex items-center justify-center h-full">
-                      <div className='flex'>
+      <section className=' '>
+          <div className="relative bg-[url('/src/assets/arkOverlay.jpg')] bg-cover bg-center w-full h-165">
+                   <div className="absolute inset-0 bg-[#3b82f6f6]  bg-opacity-50"></div>
+                   <div className="relative z-10 flex flex-wrap items-center justify-around h-full">
+                      
+                      <div className=''>                         
+                             <div className='relative '>
+                             <img src='src/assets/edwin-andrade-6liebVeAfrY-unsplash.jpg' className='w-[200%] h-[450px] rounded-lg'/>
+                              <div className='absolute inset-0 bg-opacity-50 z-10'>
+                                <img src='src/assets/Prophet-removebg-preview.png'  className=''/>
+                              </div>
+                           </div>
+                          
+                        </div>
 
+                         <div className='border  border-red-500 flex  flex-col justify-center'>
+                             <h1 className='font-bold text-6xl text-white leading-30'>ARK OF SOLUTION</h1>
+                             <p className='font-normal text-base  text-[#e7dada]'>A small river named Duden flows by their place and supplies it with <br/>
+                             the necessary regelialia. It is a paradisematic country, in which roasted parts <br/> of sentences fly into your mouth.</p>
+                            <div className='leading-30'>
+                            <button className=' text-xs font-bold text-[#e7dada] rounded-full py-4 px-8 cursor-pointer bg-[#1E3A8A] hover:bg-white hover:text-[#1E3A8A]'>GO TO SERMON</button>
+                            </div>
+                         </div>
+
+                        
                       </div>
                    </div>
 
-          </div>
+         
         
       </section>
 
-      <section>
-
-      </section>
-    </main>    </div>
+      
+    </main>    
+    </>
   )
 }
