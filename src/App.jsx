@@ -8,8 +8,8 @@ import Ministries from './pages/Ministries'
 import Events from './pages/Events'
 import Contact from './pages/Contact'
 import Request from './pages/Request'
-import { HeroSection } from './components/HeroSection'
 import { Footer } from './components/Footer'
+import { HeroSection } from './components/HeroSection/HeroSectionMain'
 
 
 
