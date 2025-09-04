@@ -4,8 +4,8 @@ import React from 'react'
 export default function UpComing() {
   return (
     <>
-      <section className='upcoming-sermons'>
-        <div className='flex flex-wrap justify-around pt-15 border border-red-500 items-center'>
+      <section>
+        <div className='flex flex-wrap justify-center gap-20 pt-15 border border-red-500 items-center'>
           <div>
             <img src='src/assets/sq-2.jpg' className='rounded-md'/>
           </div>

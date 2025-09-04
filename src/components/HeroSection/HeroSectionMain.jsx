@@ -1,6 +1,7 @@
 
 import React from 'react'
 import UpComing from './UpComing'
+import RecentSermons from './RecentSermons'
 
 export const HeroSection = () => {
   return (
@@ -35,6 +36,7 @@ export const HeroSection = () => {
                    </div>
       </section>
                       <UpComing />
+                      <RecentSermons />
       
     </main>    
     </>
