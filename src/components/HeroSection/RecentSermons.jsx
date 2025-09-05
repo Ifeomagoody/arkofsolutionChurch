@@ -19,7 +19,7 @@ export default function RecentSermons() {
              <div key={sermon.id} className=' border border-red-500'>
                 <img src={sermon.image} className='rounded-lg pb-10'/>
             <span className=' text-base text-[#999999]'>{sermon.date}
-            <span className='px-2 text-base'>•</span>
+            <span className='px-2 text-base'></span>
                 {sermon.name} 
             </span>
             <h1 className='cursor-pointer text-xl font-medium'>{sermon.topic}</h1>

@@ -2,6 +2,8 @@
 import React from 'react'
 import UpComing from './UpComing'
 import RecentSermons from './RecentSermons'
+import AboutUsPage from './AboutUsPage'
+import Podcasts from './Podcasts'
 
 export const HeroSection = () => {
   return (
@@ -37,6 +39,8 @@ export const HeroSection = () => {
       </section>
                       <UpComing />
                       <RecentSermons />
+                      <Podcasts />
+                      <AboutUsPage />
       
     </main>    
     </>
