@@ -4,6 +4,7 @@ import UpComing from './UpComing'
 import RecentSermons from './RecentSermons'
 import AboutUsPage from './AboutUsPage'
 import Podcasts from './Podcasts'
+import WhyUsPage from './WhyUsPage'
 
 export const HeroSection = () => {
   return (
@@ -24,11 +25,11 @@ export const HeroSection = () => {
                           
                         </div>
 
-                         <div className='border gap-3 border-red-500 flex  flex-col justify-center'>
+                         <div className=' gap-3  flex  flex-col justify-center'>
                              <h1 className='font-bold text-6xl text-white leadin'>ARK OF SOLUTION</h1>
                              <p className='font-normal text-base  text-[#e7dada]'>A small river named Duden flows by their place and supplies it with <br/>
                              the necessary regelialia. It is a paradisematic country, in which roasted parts <br/> of sentences fly into your mouth.</p>
-                            <div className=''>
+                            <div>
                             <button className=' text-xs font-bold text-[#e7dada] rounded-full py-4 px-8 cursor-pointer bg-[#1E3A8A] hover:bg-white hover:text-[#1E3A8A]'>GO TO SERMON</button>
                             </div>
                          </div>
@@ -41,6 +42,7 @@ export const HeroSection = () => {
                       <RecentSermons />
                       <Podcasts />
                       <AboutUsPage />
+                      <WhyUsPage />
       
     </main>    
     </>

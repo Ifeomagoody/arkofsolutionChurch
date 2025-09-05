@@ -16,7 +16,7 @@ export default function RecentSermons() {
 
                 {sermons.map((sermon) => {
              return (
-             <div key={sermon.id} className=' border border-red-500'>
+             <div key={sermon.id} className=''>
                 <img src={sermon.image} className='rounded-lg pb-10'/>
             <span className=' text-base text-[#999999]'>{sermon.date}
             <span className='px-2 text-base'></span>

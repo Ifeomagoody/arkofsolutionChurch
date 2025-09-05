@@ -21,8 +21,8 @@ export default function AboutUsPage() {
                  <img src='src/assets/sq-2.jpg' className='w-[25%] rounded-lg '/>
                  <img src='src/assets/sq-4.jpg'  className='w-[25%] rounded-lg '/>
                  <img src='src/assets/sq-2.jpg' className='w-[25%] rounded-lg '/>
-                 <img src='src/assets/sq-5.jpg'  className='w-[25%] rounded-lg '/>
                  <img src='src/assets/sq-6.jpg'  className='w-[25%] rounded-lg '/>
+                 <img src='src/assets/sq-5.jpg'  className='w-[25%] rounded-lg '/>
                  <img src='src/assets/sq-6.jpg'  className='w-[25%] rounded-lg '/>
                         
           </div>

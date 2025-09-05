@@ -5,11 +5,11 @@ export default function UpComing() {
   return (
     <>
       <section>
-        <div className='flex flex-wrap justify-center gap-20 pt-15 border border-red-500 items-center'>
+        <div className='flex flex-wrap justify-center gap-20 pt-15 items-center'>
           <div>
             <img src='src/assets/sq-2.jpg' className='rounded-md'/>
           </div>
-          <div className='upcoming-texts border border-green-500'>
+          <div className='upcoming-texts '>
               <h2 className='text-xs font-bold text-[#3b82f6f6] leading-10'>UPCOMING SERMONS</h2>
               <h1 className='text-[26.1176px] font-cinzel font-semibold leading-10'>WE MUST BE DOERS OF THE WORD NOT HEARERS ONLY</h1>
               <p className='italic'>By Prophet <strong>D. Okonkwo</strong></p>
