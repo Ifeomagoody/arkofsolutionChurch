@@ -4,7 +4,7 @@ import React from 'react'
 export default function WhyUsPage() {
   return (
     <>
-      <section className='bg-[#3b82f6f6]'>
+      <section className='bg-[#1E3A8A]'>
         <div className='flex  justify-center gap-20 p-10 items-center'>
              <div className='WhyUsTextPage w-[45%] leading-10'>
                 <h2 className='font-bold text-[#e7dada]'>WHY US</h2> 
@@ -46,7 +46,7 @@ export default function WhyUsPage() {
                 </div>
               
                  <div>
-                <button className=' text-xs font-bold text-[#e7dada] rounded-full py-4 px-8 cursor-pointer bg-[#1E3A8A] hover:bg-white hover:text-[#1E3A8A]'>SEND US YOUR PRAYER REQUEST</button>
+                <button className=' text-xs font-bold text-[#e7dada] rounded-full py-4 px-8 cursor-pointer bg-[#3b82f6f6] hover:bg-white hover:text-[#3b82f6f6]'>SEND US YOUR PRAYER REQUEST</button>
                  </div>
               </div>
              </div>

@@ -6,12 +6,12 @@ export default function AboutUsPage() {
     <section>
        <div className='flex  justify-around items-center p-20 bg-[#F5F0E9]'>
           <div className=' w-[100%] '>
-              <h2 className='text-[#1E3A8A] py-3'>ABOUT US</h2>
+              <h2 className='text-[#3b82f6f6] py-3'>ABOUT US</h2>
               <h1 className='text-4xl font-bold py-3'>WELCOME TO <br/> ARKOFSOLUTION</h1>
               <p className='text-[#999999] py-3'>A small river named Duden flows by their place and<br/> supplies it with the necessary regelialia. It is a <br/> paradisematic country, in which roasted parts of <br/> sentences fly into your mouth </p>
              
              <div className='pt-1'>
-              <button className=' text-xs transition duration-150 shadow-xl font-bold text-[#e7dada] rounded-full py-3 px-6 cursor-pointer bg-[#1E3A8A] hover:bg-white hover:text-[#1E3A8A]'>
+              <button className=' text-xs transition duration-150 shadow-xl font-bold text-[#e7dada] rounded-full py-3 px-6 cursor-pointer bg-[#3b82f6f6] hover:bg-white hover:text-[#3b82f6f6]'>
                 KNOW MORE ABOUT US
               </button>
              </div>
