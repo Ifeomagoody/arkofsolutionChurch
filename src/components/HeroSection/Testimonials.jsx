@@ -67,14 +67,14 @@ export default function Testimonials() {
         <h3 className="font-cinzel font-bold text-xs text-[#3b82f6f6]">
           TESTIMONIALS
         </h3>
-        <h1 className="text-3xl font-bold pt-6">LIVING TESTIMONIES</h1>
+        <h1 className="text-3xl font-bold p-6">LIVING TESTIMONIES</h1>
 
 
         {/* Render only testimonies for current page */}
         {currentItems.map((testimony, index) => (
           <div
             key={index}
-            className="bg-white p-10 flex flex-col justify-center items-center w-[90%] mb-6 rounded-lg shadow"
+            className="bg-white p-15 flex flex-col justify-center items-center w-[90%] mb-6 rounded-lg shadow"
           >
             <h1 className="font-bold text-lg">{testimony.heading}</h1>
             <p className="italic">{testimony.testimonial}</p>

@@ -6,6 +6,7 @@ import AboutUsPage from './AboutUsPage'
 import Podcasts from './Podcasts'
 import WhyUsPage from './WhyUsPage'
 import Testimonials from './Testimonials'
+import OurServicesPage from './OurServicesPage'
 
 export const HeroSection = () => {
   return (
@@ -45,6 +46,7 @@ export const HeroSection = () => {
                       <AboutUsPage />
                       <WhyUsPage />
                       <Testimonials />
+                      <OurServicesPage />
       
     </main>    
     </>
