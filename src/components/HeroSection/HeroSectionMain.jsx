@@ -7,6 +7,7 @@ import Podcasts from './Podcasts'
 import WhyUsPage from './WhyUsPage'
 import Testimonials from './Testimonials'
 import OurServicesPage from './OurServicesPage'
+import HearOurSermonsPage from './HearOurSermonsPage'
 
 export const HeroSection = () => {
   return (
@@ -47,6 +48,7 @@ export const HeroSection = () => {
                       <WhyUsPage />
                       <Testimonials />
                       <OurServicesPage />
+                      <HearOurSermonsPage />
       
     </main>    
     </>

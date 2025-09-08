@@ -87,6 +87,8 @@ export default function Testimonials() {
             <h2 className="text-sm font-medium text-[#888888]">
               {testimony.typeOfTestifier}
             </h2>
+              </div>
+        ))}
              {/* Pagination Component */}
         <ReactPaginate
           previousLabel={"Prev"}
@@ -94,7 +96,7 @@ export default function Testimonials() {
            breakLabel={null}
           pageCount={pageCount}
           onPageChange={handlePageClick}
-          containerClassName={"flex p-5 justify-center items-center gap-2 mt-6"}
+          containerClassName={"flex pt-15 justify-center items-center gap-5 mt-6"}
           pageClassName={"w-2  h-2 border border-[#888888] cursor-pointer rounded-full"}
           activeClassName={"bg-[#3b82f6f6] hover:opacity-75 transition delay-150 duration-300 text-[#fff] text-xs font-light  rounded-full opacity-0.4  cursor-pointer"}
           previousClassName={" bg-[#3b82f6f6] hover:opacity-75 transition delay-150 duration-300 text-[#fff] text-xs font-light px-5 py-2 rounded-full opacity-0.4  cursor-pointer"}
@@ -103,8 +105,7 @@ export default function Testimonials() {
           pageLinkClassName={"hidden"}
           pageLabelBuilder={() => ""}
         />
-          </div>
-        ))}
+        
 
        
       </div>
