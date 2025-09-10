@@ -19,7 +19,7 @@ export default function OurServicesPage() {
                     </div>          
                     <div className='flex flex-col items-center'>
                        <img src='public/leaf-solid-full.svg' className='w-15 '/> 
-                       <h2 className='pt-5 text-lg font-bold'>BAPTISM</h2>
+                       <h2 className='pt-5 text-lg font-bold'>DELIVERANCE</h2>
                        <p className='pt-5 text-[#888888]'>Far far away, behind the word mountain, far from the countries Vokalia and Consonantia, there live the blind texts</p>
                     </div>          
                     <div className='flex flex-col items-center'>

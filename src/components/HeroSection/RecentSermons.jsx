@@ -11,7 +11,7 @@ export default function RecentSermons() {
         <div className='bg-[#F5F0E9] flex flex-wrap pt-15 flex-col justify-center items-center'>
             <h1 className='text-[#3b82f6f6] text-xs font-bold'> SERMONS </h1>
             <h2 className='text-xl font-bold'>RECENT SERMONS</h2>
-            <div className='flex flex-wrap pt-10 gap-15 justify-center items-center'>
+            <div className='flex md:flex-wrap sm:flex-wrap pt-10 gap-15 justify-center items-center'>
    
 
                 {sermons.map((sermon) => {
@@ -24,7 +24,7 @@ export default function RecentSermons() {
             </span>
             <h1 className='cursor-pointer text-xl font-medium'>{sermon.topic}</h1>
             <p className='text-base font-medium text-wrap  text-[#999999]'>{sermon.message}</p>     
-              <div className='pt-10'>
+              <div className='py-3'>
              <button className=' text-xs transition duration-150 shadow-xl font-bold text-[#e7dada] rounded-full py-3 px-6 cursor-pointer bg-[#3b82f6f6] hover:bg-white hover:text-[#3b82f6f6]'>{sermon.button}</button>
               </div>
               </div>

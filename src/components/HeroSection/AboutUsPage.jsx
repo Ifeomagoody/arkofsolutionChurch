@@ -4,7 +4,7 @@ import React from 'react'
 export default function AboutUsPage() {
   return (
     <section>
-       <div className='flex  justify-around items-center p-20 bg-[#F5F0E9]'>
+       <div className='flex justify-around items-center p-20 bg-[#F5F0E9]'>
           <div className=' w-[100%] '>
               <h2 className='text-[#3b82f6f6] py-3'>ABOUT US</h2>
               <h1 className='text-4xl font-bold py-3'>WELCOME TO <br/> ARKOFSOLUTION</h1>

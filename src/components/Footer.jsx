@@ -65,7 +65,7 @@ export const Footer = () => {
     </div>
               <div className='flex flex-col pb-15 justify-center items-center'>
 
-          <h2>Copyright ©2025. All Rights Reserved. — Designed with love by <span className=' hover:text-[#1e3a8a] transition delay-150'>Ifeoma Ezeokoli👑</span></h2>
+          <h2 className='text-[#888]'>Copyright ©2025. All Rights Reserved. — Designed with love by <span className='hover:text-[#1e3a8a] transition delay-150'>Ifeoma Ezeokoli👑</span></h2>
               </div>
     </section>
   )

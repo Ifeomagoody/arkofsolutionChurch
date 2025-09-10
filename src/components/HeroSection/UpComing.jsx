@@ -5,8 +5,8 @@ export default function UpComing() {
   return (
     <>
       <section>
-        <div className='flex flex-wrap justify-center gap-20 p-10 items-center'>
-          <div>
+        <div className='flex flex-wrap  lg:justify-around md:justify-start p-10 items-center'>
+          <div className='flex '>
             <img src='src/assets/sq-2.jpg' className='rounded-md'/>
           </div>
           <div className='upcoming-texts '>

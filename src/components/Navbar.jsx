@@ -38,8 +38,8 @@ export const Navbar = () => {
            
         <div className='md:flex hidden items-center gap-6 h-16'>
     <NavLink to='/'>Home</NavLink >
-    <button onMouseOver={handleMouseOver}>
-    <NavLink to='/sermons' className='flex items-center hover:text-[#d3cccc] justify-center align-center'>
+    <div onMouseOver={handleMouseOver}>
+     <NavLink to='/sermons' className='flex items-center hover:text-[#d3cccc] justify-center align-center'> 
            Sermons
          <span className='m-2'>
               {selectedOverOption}
@@ -47,7 +47,7 @@ export const Navbar = () => {
               className={`${showDropDown && 'rotate-180'}`} 
               />
          </span>    
-    </NavLink >    
+    </NavLink >     
         {showDropDown && (
           <ul className='absolute bg-white py-3 px-2 rounded-sm mt-2 shadow-md'>
              {optionsArray.map((item, index) => (
@@ -55,7 +55,7 @@ export const Navbar = () => {
            ))}
           </ul>
         )}
-    </button>
+    </div>
 
     <NavLink to='/ministries' className='hover:text-[#e7dada] transition delay-150 duration-300'>Ministries</NavLink >
     <NavLink to='/events' className='hover:text-[#e7dada] transition delay-150 duration-300'>Events</NavLink >
@@ -72,7 +72,7 @@ export const Navbar = () => {
       </div>
 
       {mobileMenu && (
-        <div className='md:hidden fixed top-7.5 right-0 w-64 bg-white px-4 pb-4  space-y-8 flex flex-col'>
+        <div className='md:hidden fixed top-16 z-50  right-0 w-64 bg-white px-4 pb-4 rounded-sm space-y-8 flex flex-col'>
           <NavLink to='/'>Home</NavLink>
           <NavLink to='/sermons'>Sermons</NavLink>
           <NavLink to='/ministries'>Ministries</NavLink>

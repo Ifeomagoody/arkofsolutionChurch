@@ -5,7 +5,7 @@ export default function WhyUsPage() {
   return (
     <>
       <section className='bg-[#1E3A8A]'>
-        <div className='flex  justify-center gap-20 p-10 items-center'>
+        <div className='flex sm:flex-wrap justify-center gap-20 p-10 items-center'>
              <div className='WhyUsTextPage w-[45%] leading-10'>
                 <h2 className='font-bold text-[#e7dada]'>WHY US</h2> 
                 <h1 className='font-bold text-[#e7dada] text-4xl'>KEEP YOUR FAITH</h1>

@@ -9,7 +9,6 @@ import Events from './pages/Events'
 import Contact from './pages/Contact'
 import Request from './pages/Request'
 import { Footer } from './components/Footer'
-import { HeroSection } from './components/HeroSection/HeroSectionMain'
 
 
 
@@ -17,7 +16,7 @@ function App() {
 
   return (
     <>
-    
+         <BrowserRouter>
         <Navbar />        
         <div className=' mb-6'>
           <Routes >
@@ -29,8 +28,10 @@ function App() {
             <Route path='/request' element={<Request />}></Route>
           </Routes>
         </div>
-        <HeroSection />
+       
+        
         <Footer />
+        </BrowserRouter>
             </>
 
   )
