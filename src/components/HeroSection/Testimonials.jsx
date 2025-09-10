@@ -1,49 +1,8 @@
 
-// import React from 'react'
-// import { useState } from 'react'
-// import { Testimonies } from './TestimonialsData'
-// import ReactPaginate from "react-paginate";
-
-
-// export default function Testimonials() {
-      
-//   return (
-//     <>
-//       <section>
-//         <div className=' bg-[#F5F0E9] flex flex-col p-10 justify-center items-center'>
-//               <h3 className='font-cinzel font-bold text-xs text-[#3b82f6f6]'>TESTIMONIALS</h3>
-//               <h1 className='text-3xl font-bold pt-6'>LIVING TESTIMONIES</h1>
-//               <div className='flex justify-center p-8 gap-1 items-center'>
-//                    <button className='bg-[#3b82f6f6] hover:opacity-75 transition delay-150 duration-300 text-[#fff] text-xs font-light px-6 py-1.5 rounded-full opacity-0.4  cursor-pointer'>PREV</button>
-//                    <button className='bg-[#3b82f6f6] hover:opacity-75 transition delay-150 duration-300 text-[#fff] text-xs font-light px-6 py-1.5 rounded-full opacity-0.4  cursor-pointer'>NEXT</button>
-//               </div>
-
-
-       
-
-//                {Testimonies.map((testimony) => {
-//                return(
-//                   <div key={testimony.id} className='bg-white p-10 flex flex-col justify-center items-center w-[90%]'>
-//                   <h1 className='font-bold text-lg'>{testimony.heading}</h1>
-//                   <p className='italic'>{testimony.testimonial}</p>
-//                   <img src={testimony.image} alt='Prophet' className='w-12 h-12 rounded-full overflow-hidden border-[#F5F0E9] border' />
-//                   <h2 className='text-base font-bold'>{testimony.nameOfTestifier}</h2>
-//                   <h2 className='text-sm font-medium text-[#888888]'>{testimony.typeOfTestifier}</h2>
-//               </div>
-//                  )
-//                   })}
-
-           
-//         </div>
-//       </section>
-//     </>
-//   )
-// }
-
-
 import React, { useState } from "react";
 import { Testimonies } from "./TestimonialsData";
 import ReactPaginate from "react-paginate";
+import { motion } from 'framer-motion'
 
 export default function Testimonials() {
   const [currentPage, setCurrentPage] = useState(0);
@@ -63,7 +22,13 @@ export default function Testimonials() {
 
   return (
     <section>
-      <div className="bg-[#F5F0E9] flex flex-col py-10 justify-center items-center">
+      <div className="">
+        <motion.div
+                                        className='bg-[#F5F0E9] flex flex-col py-10 justify-center items-center'
+                                        initial={{ opacity: 0, x: 100 }}           // start off-screen to the right
+                                        animate={{ opacity: 1, x: 0 }}             // slide in
+                                        transition={{ duration: 1, ease: 'easeInOut' }}
+                                 > 
         <h3 className="font-cinzel font-bold text-xs text-[#3b82f6f6]">
           TESTIMONIALS
         </h3>
@@ -72,6 +37,8 @@ export default function Testimonials() {
 
         {/* Render only testimonies for current page */}
         {currentItems.map((testimony, index) => (
+
+      
           <div
             key={index}
             className="bg-white p-15 flex flex-col justify-center items-center w-[90%] mb-6 rounded-lg shadow"
@@ -88,6 +55,8 @@ export default function Testimonials() {
               {testimony.typeOfTestifier}
             </h2>
               </div>
+             
+        
         ))}
              {/* Pagination Component */}
         <ReactPaginate
@@ -108,6 +77,7 @@ export default function Testimonials() {
         
 
        
+         </motion.div>
       </div>
     </section>
   );

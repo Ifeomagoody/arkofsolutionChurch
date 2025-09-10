@@ -8,28 +8,21 @@ export const Navbar = () => {
   const [selectedOverOption, setSelectedOverOption] = useState(false)
   const [showDropDown, setShowDropDown] = useState(false)
     const [mobileMenu, setMobileMenu] = useState(false)
-
-
-   
   const optionsArray = [
      'Sermons',
      'Sermons Single',
      'Dropdowns'
   ]
-
   function handleMouseOver (){
         setShowDropDown(prev => !prev)
   }
-
   function handleOptionSelect(){
        setSelectedOverOption(prevOption => !prevOption)
        setShowDropDown(false)
   }
-
   function handleClick(){
     setMobileMenu(mobileMenu => !mobileMenu)
   }
-
   return (
     <nav >
         <div className='text-[#e7dada] bg-transparent fixed  z-[1]  top-0 left-0  right-0  mx-auto  items-center flex justify-around '>
@@ -37,9 +30,9 @@ export const Navbar = () => {
             <Link to='/'>ArkofSolution</Link>     
            
         <div className='md:flex hidden items-center gap-6 h-16'>
-    <NavLink to='/'>Home</NavLink >
+    <NavLink to='/' className="text-white hover:text-[#e7dada] transition-colors duration-300">Home</NavLink >
     <div onMouseOver={handleMouseOver}>
-     <NavLink to='/sermons' className='flex items-center hover:text-[#d3cccc] justify-center align-center'> 
+     <NavLink to='/sermons' className='flex items-center  justify-center align-center text-white hover:text-[#d3cccc] transition-colors duration-300'> 
            Sermons
          <span className='m-2'>
               {selectedOverOption}
@@ -56,10 +49,11 @@ export const Navbar = () => {
           </ul>
         )}
     </div>
-
-    <NavLink to='/ministries' className='hover:text-[#e7dada] transition delay-150 duration-300'>Ministries</NavLink >
-    <NavLink to='/events' className='hover:text-[#e7dada] transition delay-150 duration-300'>Events</NavLink >
-    <NavLink to='/contact' className='hover:text-[#e7dada] transition delay-150 duration-300'>Contact</NavLink >
+     
+     
+    <NavLink to='/ministries' className='text-white hover:text-[#e7dada] transition-colors duration-300'>Ministries</NavLink >
+    <NavLink to='/events' className='text-white hover:text-[#e7dada] transition-colors duration-300'>Events</NavLink >
+    <NavLink to='/contact' className='text-white hover:text-[#e7dada] transition-colors duration-300'>Contact</NavLink >
     <NavLink to='/request' className='border-2 bg-transparent border-[#ffffff1a] flex-none cursor-pointer px-6 py-2  rounded-full hover:bg-[#3b82f6f6] transition delay-150 duration-300'>Request a Prayer</NavLink >
         </div>
            
