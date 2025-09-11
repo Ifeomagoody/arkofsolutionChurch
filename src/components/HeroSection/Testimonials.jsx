@@ -62,7 +62,7 @@ export default function Testimonials() {
         <ReactPaginate
           previousLabel={"Prev"}
           nextLabel={"Next"}
-           breakLabel={null}
+          breakLabel={null}
           pageCount={pageCount}
           onPageChange={handlePageClick}
           containerClassName={"flex pt-15 justify-center items-center gap-5 mt-6"}
