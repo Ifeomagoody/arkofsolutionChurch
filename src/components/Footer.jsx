@@ -1,11 +1,11 @@
 
 import React from 'react'
 
-export const Footer = () => {
+export default function Footer() {
   return (
     <section className=''> 
 
-    <div className='flex  bg-[#fff] gap-10 flex-wrap h-[60vh] pt-20 items-center justify-around'>
+    <div className='flex  bg-[#fff] gap-10 sm:flex-wrap h-[60vh]  items-center justify-around'>
         <div className=''>
           <h3 className='text-[#1E3A8A] font-medium text-base'>CONTACT</h3>
           <li className='underline text-[14px] font-medium decoration-[#888] text-[#888] underline-offset-4 list-none hover:underline transition delay-75 hover:decoration-[#1E3A8A]'>43 Raymouth Rd. Baltemoer, London 3910</li>
@@ -63,7 +63,7 @@ export const Footer = () => {
 
         </div>
     </div>
-              <div className='flex flex-col pb-15 justify-center items-center'>
+              <div className='flex  pb-15 justify-center items-center'>
 
           <h2 className='text-[#888]'>Copyright ©2025. All Rights Reserved. — Designed with love by <span className='hover:text-[#1e3a8a] transition delay-150'>Ifeoma Ezeokoli👑</span></h2>
               </div>

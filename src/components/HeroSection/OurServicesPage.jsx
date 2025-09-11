@@ -23,7 +23,8 @@ export default function OurServicesPage() {
                          > 
                        <img src='public/house-chimney-window-solid-full.svg' className='w-15 '/> 
                        <h2 className='pt-5 text-lg font-bold'>WORSHIP</h2>
-                       <p className='pt-5 text-[#888888]'>Far far away, behind the word mountain, far from the countries Vokalia and Consonantia, there live the blind texts</p>
+                       <p className='pt-5 text-[#888888]'>Far far away, behind the word mountain, far from the countries
+                         Vokalia and Consonantia, there live the blind texts</p>
                    </motion.div>
                     </div>    
 

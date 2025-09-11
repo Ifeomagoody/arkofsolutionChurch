@@ -8,7 +8,8 @@ import Ministries from './pages/Ministries'
 import Events from './pages/Events'
 import Contact from './pages/Contact'
 import Request from './pages/Request'
-import { Footer } from './components/Footer'
+import Footer from './components/Footer'
+//import  Footer  from '../components/Footer'
 
 
 
