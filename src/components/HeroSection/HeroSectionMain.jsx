@@ -39,7 +39,7 @@ export default function HeroSectionMain() {
               <div>
                 <motion.div
                   className="lg:gap-8 gap-6 flex flex-col justify-center"
-                  initial={{ opacity: 0, x: -100 }}
+                  initial={{ opacity: 0, x: 100 }}
                   whileInView={{ opacity: 1, x: 0 }}
                   viewport={{ once: true }}
                   transition={{ duration: 2, ease: "easeInOut" }}

@@ -11,7 +11,7 @@ export default function WhyUsPage() {
              <div className=' w-[45%] leading-10'>
                                      <motion.div
                                                 className=''
-                                                initial={{ opacity: 0, y: 100 }}           // start off-screen to the right
+                                                initial={{ opacity: 0, y: -100 }}           // start off-screen to the right
                                                 animate={{ opacity: 1, y: 0 }}             // slide in
                                                 transition={{ duration: 1, ease: 'easeInOut' }}
                                          > 
@@ -27,7 +27,7 @@ export default function WhyUsPage() {
 
                            <motion.div
                                                 className=''
-                                                initial={{ opacity: 0, y: 100 }}           // start off-screen to the right
+                                                initial={{ opacity: 0, y: -100 }}           // start off-screen to the right
                                                 animate={{ opacity: 1, y: 0 }}             // slide in
                                                 transition={{ duration: 2, ease: 'easeInOut' }}
                                          >                 

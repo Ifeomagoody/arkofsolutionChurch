@@ -34,7 +34,7 @@ import { motion } from 'framer-motion'
                     which roasted parts <br /> of sentences fly into your mouth.
                   </p>
                   <div>
-                    <button className=" text-xs font-bold text-[#e7dada] rounded-full py-4 px-8 cursor-pointer bg-[#3b82f6f6] hover:bg-white hover:text-[#3b82f6f6]">
+                    <button className=" text-xs  font-bold text-[#e7dada] rounded-full py-4 px-8 cursor-pointer bg-[#3b82f6f6] hover:bg-white hover:text-[#3b82f6f6]">
                       GO TO SERMON
                     </button>
                   </div>
@@ -61,7 +61,7 @@ import { motion } from 'framer-motion'
 
         <section>
 
-          <div className='flex p-10 flex-wrap bg-[#F5F0E9] flex- justify-around items-center'>
+          <div className='flex p-10 flex-wrap bg-[#F5F0E9] sm:justify-start sm:gap-6 justify-around items-center'>
               <form>
             <motion.div
                 initial={{ opacity: 0, x: -100 }} // start off-screen to the right
@@ -132,7 +132,7 @@ import { motion } from 'framer-motion'
             >
             </textarea>
         <div>
-                <button className=' text-xs font-bold text-[#e7dada] rounded-full py-4 px-8 cursor-pointer bg-[#3b82f6f6] hover:bg-white hover:text-[#3b82f6f6]'>SEND US YOUR PRAYER REQUEST</button>
+                <button className='text-xs font-bold text-[#e7dada] rounded-full py-4 px-8 cursor-pointer bg-[#3b82f6f6] hover:bg-white hover:text-[#3b82f6f6]'>SEND US YOUR PRAYER REQUEST</button>
                  </div>
   </motion.div>
         </form>
