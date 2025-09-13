@@ -4,7 +4,6 @@ import { Navbar } from '../components/Navbar'
 import { motion } from "framer-motion";
 import ReactPaginate from "react-paginate";
 import { Testimonies } from '../components/HeroSection/TestimonialsData';
-// import { Testimonies } from "./TestimonialsData";
 
 
 
@@ -12,12 +11,10 @@ import { Testimonies } from '../components/HeroSection/TestimonialsData';
 
  export default function Ministries() {
     const [currentPage, setCurrentPage] = useState(0);
-  const perPage = 2; // testimonies per page
+  const perPage = 2; 
 
-  // total pages
   const pageCount = Math.ceil(Testimonies.length / perPage);
 
-  // slice data for current page
   const offset = currentPage * perPage;
 
     const handlePageClick = ({ selected }) => {
@@ -61,8 +58,8 @@ import { Testimonies } from '../components/HeroSection/TestimonialsData';
               </div>
 
                 <motion.div
-                initial={{ opacity: 0, x: 100 }} // start off-screen to the right
-                animate={{ opacity: 1, x: 0 }} // slide in
+                initial={{ opacity: 0, x: 100 }} 
+                animate={{ opacity: 1, x: 0 }} 
                 transition={{ duration: 2, ease: "easeInOut" }}
               >
                 <div className="relative ">
@@ -82,8 +79,8 @@ import { Testimonies } from '../components/HeroSection/TestimonialsData';
          <div >
                <motion.div
                className='flex  flex-row flex-wrap gap-11 justify-center p-15 items-center w-full'
-                initial={{ opacity: 0, y: 100 }} // start off-screen to the right
-                animate={{ opacity: 1, y: 0 }} // slide in
+                initial={{ opacity: 0, y: 100 }} 
+                animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 2, ease: "easeInOut" }}
               >
 
