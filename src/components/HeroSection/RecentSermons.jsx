@@ -14,8 +14,8 @@ export default function RecentSermons() {
               return (
                 <motion.div
                   className="flex md:flex-wrap sm:flex-wrap pt-10 gap-15 justify-center items-center"
-                  initial={{ opacity: 0, y: -100 }} // start off-screen to the right
-                  animate={{ opacity: 1, y: 0 }} // slide in
+                  initial={{ opacity: 0, y: -100 }} 
+                  animate={{ opacity: 1, y: 0 }} 
                   transition={{ duration: 1, ease: "easeInOut" }}
                 >
                   <div key={sermon.id} className="">
