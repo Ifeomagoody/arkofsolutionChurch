@@ -63,8 +63,8 @@ export default function WhyUsPage() {
                 
                 </div>
               
-                 <div>
-                <button className=' text-xs font-bold text-[#e7dada] rounded-full py-4 px-8 cursor-pointer bg-[#3b82f6f6] hover:bg-white hover:text-[#3b82f6f6]'>SEND US YOUR PRAYER REQUEST</button>
+                 <div className=''>
+                <button className=' text-xs font-bold  text-[#e7dada] rounded-full py-4 px-8 cursor-pointer bg-[#3b82f6f6] hover:bg-white hover:text-[#3b82f6f6]'>SEND US YOUR PRAYER REQUEST</button>
                  </div>
               </motion.div>  
               </div>
